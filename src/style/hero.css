@@ -1,0 +1,43 @@
+.hero{
+    width: 100vw;
+}
+.slider{
+    height:80vh;
+    width: 100vw;
+    background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    color: white;
+}
+
+.slider-bg{
+   width: auto;
+  
+}
+
+.slider-controlls{
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.slider-btn{
+ width: 50px;
+ height: 50px;
+ margin: auto 2rem;
+ border-radius:50% ;
+ background-color: white;
+
+ }
+.slider-btn:hover{
+    background-color:#fc5c7d;
+}
+
+
+
+
+
+@media screen  and (max-width:720px){
+    
+}
